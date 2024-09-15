@@ -14,6 +14,8 @@ nav {
 
   .link_list li a{
     text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
   }
 
 button {
@@ -24,4 +26,9 @@ button {
   transition: 0.4s;
   font-size: 1em;
   cursor: pointer;
+}
+
+.active{
+  color: #ccc;
+  background-color: #000000;
 }
