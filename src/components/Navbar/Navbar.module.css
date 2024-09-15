@@ -1,0 +1,27 @@
+nav {
+  border-bottom: 1px solid #ccc;
+}
+
+.link_list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.link_list li {
+    margin-right: 1em;
+  }
+
+  .link_list li a{
+    text-decoration: none;
+  }
+
+button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  transition: 0.4s;
+  font-size: 1em;
+  cursor: pointer;
+}

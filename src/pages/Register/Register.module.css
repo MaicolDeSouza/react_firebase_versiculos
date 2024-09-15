@@ -1,0 +1,42 @@
+.register{
+  text-align: center;
+}
+
+form {
+    max-width: 30%;
+    margin: 2em auto;
+    margin-bottom: 2em;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+  
+  label span {
+    margin-bottom: 0.3em;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  input{
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0.8em 0em;
+  background-color: transparent;
+  }
+
+  .button {
+    background-color: #1a8918;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+  }

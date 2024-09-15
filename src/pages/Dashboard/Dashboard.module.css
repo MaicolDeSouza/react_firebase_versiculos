@@ -1,0 +1,65 @@
+.dashboard{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.post_header{
+display: flex;
+justify-content: space-between;
+font-weight: bold;
+width: 80%;
+padding: 10px;
+border-bottom: 2px solid #ccc;
+font-size: 1.5em;
+}
+
+.post_action{
+    margin-right: 3em;
+}
+
+.post_doc{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1em;
+    }
+
+.doc_verse{
+    font-weight: bold;
+}
+.doc_chapter{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.button_edit {
+    background-color: #1a8918;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+    padding: 5px 5px;
+    font-size: 1em;
+    margin-right: 1em;
+
+  }
+
+  .button_delete {
+    background-color: #d41019;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+    padding: 5px 5px;
+    font-size: 1em;
+  }
